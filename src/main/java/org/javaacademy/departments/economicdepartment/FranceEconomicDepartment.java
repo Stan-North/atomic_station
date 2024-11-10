@@ -3,7 +3,9 @@ package org.javaacademy.departments.economicdepartment;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
-import static java.math.BigDecimal.*;
+
+import static java.math.BigDecimal.valueOf;
+import static java.math.BigDecimal.ZERO;
 
 import java.math.BigDecimal;
 
@@ -12,8 +14,8 @@ import java.math.BigDecimal;
 public class FranceEconomicDepartment extends EconomicDepartment {
     @Value("${app.price}")
     private double priceMultiplier;
-    private static final BigDecimal MULTIPLIER_TO_DECREASE = BigDecimal.valueOf(0.99);
-    private static final BigDecimal LIMIT_TO_DECREASE = BigDecimal.valueOf(1_000_000_000L);
+    private static final BigDecimal MULTIPLIER_TO_DECREASE = valueOf(0.99);
+    private static final BigDecimal LIMIT_TO_DECREASE = valueOf(1_000_000_000L);
 
     @Override
     public BigDecimal computeYearIncomes(long countElectricity) {

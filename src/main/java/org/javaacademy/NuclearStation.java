@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
-import static java.math.BigDecimal.*;
+import static java.math.BigDecimal.ZERO;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
@@ -21,21 +21,18 @@ import java.text.DecimalFormat;
 public class NuclearStation {
     private static final String NUCLEAR_STATION_STARTED_WORK = "Атомная станция начала работу";
     private static final int YEAR_LOOP_COUNTER = 365;
-    private static final String GENERATE_ENERGY_ERROR_MESSAGE = "Внимание! Происходят работы на атомной станции! " +
-            "Электричества нет!";
-    private static final String YEAR_WORK_RESULT = "Атомная станция закончила работу. " +
-            "За год Выработано %s киловатт/часов";
+    private static final String GENERATE_ENERGY_ERROR_MESSAGE = "Внимание! Происходят работы на атомной станции! "
+            + "Электричества нет!";
+    private static final String YEAR_WORK_RESULT = "Атомная станция закончила работу. "
+            + "За год Выработано %s киловатт/часов";
     private static final String ACCIDENT_BY_ALL_TIME = "Количество инцидентов за всю работу станции: %d";
     private static final String ACCIDENT_BY_YEAR = "Количество инцидентов за год: %d";
     private static final DecimalFormat DECIMAL_FORMAT = new DecimalFormat("#,##0.00");
-    private static final String COUNTRY_MESSAGE  = "Действие происходит в стране: %s";
+    private static final String COUNTRY_MESSAGE = "Действие происходит в стране: %s";
     private static final String YEAR_INCOME_MESSAGE = "Доход за год составил %s %s";
 
-    @NonNull
     private final ReactorDepartment reactorDepartment;
-    @NonNull
     private final SecurityDepartment securityDepartment;
-    @NonNull
     private final EconomicDepartment economicDepartment;
 
     private BigDecimal amountOfGeneratedEnergy = ZERO;

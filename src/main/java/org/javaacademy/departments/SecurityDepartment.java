@@ -1,9 +1,7 @@
 package org.javaacademy.departments;
 
-import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.javaacademy.NuclearStation;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component

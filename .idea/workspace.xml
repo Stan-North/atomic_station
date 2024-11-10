@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd6f0c1d-fe59-4a8c-83c2-4598a01f3248" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/NuclearStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/NuclearStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/FranceEconomicDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/FranceEconomicDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/MoroccoEconomicDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/MoroccoEconomicDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/exceptions/ReactorWorkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/exceptions/ReactorWorkException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
   "keyToString": {
     "Application.Runner.executor": "Run",
     "Maven.atomic_station [clean].executor": "Run",
+    "Maven.atomic_station [compile].executor": "Run",
     "Maven.atomic_station [install].executor": "Run",
     "Maven.atomic_station [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -87,18 +90,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/MoroccoEconomicDepartment.java</url>
-          <line>16</line>
-          <properties class="org.javaacademy.departments.economicdepartment.MoroccoEconomicDepartment" method="computeYearIncomes">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/javaacademy/Runner.java</url>
-          <line>14</line>
+          <line>12</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
