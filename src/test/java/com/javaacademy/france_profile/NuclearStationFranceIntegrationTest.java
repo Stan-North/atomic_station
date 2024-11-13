@@ -1,5 +1,6 @@
-package com.javaacademy;
+package com.javaacademy.france_profile;
 
+import com.javaacademy.NuclearStation;
 import com.javaacademy.departments.ReactorDepartment;
 import com.javaacademy.departments.SecurityDepartment;
 import com.javaacademy.departments.economicdepartment.EconomicDepartment;
@@ -12,9 +13,9 @@ import org.springframework.test.context.ActiveProfiles;
 
 import java.math.BigDecimal;
 
-@ActiveProfiles("morocco")
+@ActiveProfiles("france")
 @SpringBootTest
-public class NuclearStationIntegrationTest {
+public class NuclearStationFranceIntegrationTest {
     @Autowired
     NuclearStation nuclearStation;
 
@@ -37,6 +38,15 @@ public class NuclearStationIntegrationTest {
         int expectedDaysOff = 3;
         Assertions.assertEquals(expected, nuclearStation.getAmountOfGeneratedEnergy());
         Assertions.assertEquals(expectedDaysOff, nuclearStation.getAccidentCountAllTime());
+    }
+
+    @Test
+    public void fieldValuesSuccess() {
+        String country = "Франция";
+        String currency = "Евро";
+
+        Assertions.assertEquals(country, nuclearStation.getCountry());
+        Assertions.assertEquals(currency, nuclearStation.getCurrency());
     }
 
 }

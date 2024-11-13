@@ -19,6 +19,7 @@ import java.text.DecimalFormat;
 
 @Component
 @Slf4j
+@Getter
 public class NuclearStation {
     private static final String NUCLEAR_STATION_STARTED_WORK = "Атомная станция начала работу";
     private static final int YEAR_LOOP_COUNTER = 365;
@@ -36,9 +37,7 @@ public class NuclearStation {
     private final SecurityDepartment securityDepartment;
     private final EconomicDepartment economicDepartment;
 
-    @Getter
     private BigDecimal amountOfGeneratedEnergy = ZERO;
-    @Getter
     private int accidentCountAllTime;
     @Value("${app.country}")
     private String country;
