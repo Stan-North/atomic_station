@@ -1,4 +1,4 @@
-package org.javaacademy.departments.economicdepartment;
+package com.javaacademy.departments.economicdepartment;
 
 import java.math.BigDecimal;
 

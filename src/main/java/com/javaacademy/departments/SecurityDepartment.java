@@ -1,7 +1,7 @@
-package org.javaacademy.departments;
+package com.javaacademy.departments;
 
+import com.javaacademy.NuclearStation;
 import lombok.RequiredArgsConstructor;
-import org.javaacademy.NuclearStation;
 import org.springframework.stereotype.Component;
 
 @Component

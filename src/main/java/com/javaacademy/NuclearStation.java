@@ -1,12 +1,13 @@
-package org.javaacademy;
+package com.javaacademy;
 
+import lombok.Getter;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
-import org.javaacademy.departments.ReactorDepartment;
-import org.javaacademy.departments.SecurityDepartment;
-import org.javaacademy.departments.economicdepartment.EconomicDepartment;
-import org.javaacademy.exceptions.NuclearFuelIsEmptyException;
-import org.javaacademy.exceptions.ReactorWorkException;
+import com.javaacademy.departments.ReactorDepartment;
+import com.javaacademy.departments.SecurityDepartment;
+import com.javaacademy.departments.economicdepartment.EconomicDepartment;
+import com.javaacademy.exceptions.NuclearFuelIsEmptyException;
+import com.javaacademy.exceptions.ReactorWorkException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
@@ -35,7 +36,9 @@ public class NuclearStation {
     private final SecurityDepartment securityDepartment;
     private final EconomicDepartment economicDepartment;
 
+    @Getter
     private BigDecimal amountOfGeneratedEnergy = ZERO;
+    @Getter
     private int accidentCountAllTime;
     @Value("${app.country}")
     private String country;

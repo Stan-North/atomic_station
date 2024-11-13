@@ -1,4 +1,4 @@
-package org.javaacademy.departments.economicdepartment;
+package com.javaacademy.departments.economicdepartment;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;

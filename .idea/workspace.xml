@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd6f0c1d-fe59-4a8c-83c2-4598a01f3248" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/NuclearStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/NuclearStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/FranceEconomicDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/FranceEconomicDepartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/MoroccoEconomicDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/MoroccoEconomicDepartment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/exceptions/ReactorWorkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/javaacademy/exceptions/ReactorWorkException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/NuclearStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/NuclearStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/ReactorDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/departments/ReactorDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/SecurityDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/departments/SecurityDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/EconomicDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/departments/economicdepartment/EconomicDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/FranceEconomicDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/departments/economicdepartment/FranceEconomicDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/departments/economicdepartment/MoroccoEconomicDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/departments/economicdepartment/MoroccoEconomicDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/exceptions/NuclearFuelIsEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/exceptions/NuclearFuelIsEmptyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/javaacademy/exceptions/ReactorWorkException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/exceptions/ReactorWorkException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +45,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Runner.executor": "Run",
+    "JUnit.All in atomic_station.executor": "Coverage",
+    "JUnit.FranceEconomicDepartmentUnitTest.calculateSuccess1.executor": "Run",
+    "JUnit.FranceEconomicDepartmentUnitTest.calculateSuccess2.executor": "Run",
+    "JUnit.FranceEconomicDepartmentUnitTest.executor": "Run",
+    "JUnit.MoroccoEconomicDepartmentUnitTest.calculateSuccess1.executor": "Run",
+    "JUnit.MoroccoEconomicDepartmentUnitTest.calculateSuccess2.executor": "Run",
+    "JUnit.NuclearStationIT.executor": "Run",
+    "JUnit.NuclearStationIT.startSuccess.executor": "Run",
+    "JUnit.NuclearStationIntegrationTest.contextSuccess.executor": "Run",
+    "JUnit.NuclearStationIntegrationTest.createSuccess.executor": "Run",
+    "JUnit.ReactorDepartmentUnitTest.executor": "Coverage",
+    "JUnit.ReactorDepartmentUnitTest.runSuccess.executor": "Run",
+    "JUnit.ReactorDepartmentUnitTest.stopFailure.executor": "Run",
+    "JUnit.SecurityDepartmentUnitTest.addCounterSuccess.executor": "Run",
+    "JUnit.SecurityDepartmentUnitTest.executor": "Coverage",
+    "JUnit.java in atomic_station.executor": "Coverage",
     "Maven.atomic_station [clean].executor": "Run",
     "Maven.atomic_station [compile].executor": "Run",
     "Maven.atomic_station [install].executor": "Run",
+    "Maven.atomic_station [site].executor": "Run",
+    "Maven.atomic_station [test].executor": "Run",
     "Maven.atomic_station [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -53,16 +76,16 @@
     "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.java in atomic_station">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
-        <env name="SPRING_PROFILES_ACTIVE" value=" france" />
+        <env name="SPRING_PROFILES_ACTIVE" value="france" />
       </envs>
-      <option name="MAIN_CLASS_NAME" value="org.javaacademy.Runner" />
+      <option name="MAIN_CLASS_NAME" value="com.javaacademy.Runner" />
       <module name="atomic_station" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.javaacademy.economicdepartment.*" />
+          <option name="PATTERN" value="com.javaacademy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,8 +93,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in atomic_station" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atomic_station" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NuclearStationIntegrationTest.contextSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atomic_station" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.javaacademy.NuclearStationIntegrationTest" />
+      <option name="METHOD_NAME" value="contextSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NuclearStationIntegrationTest.createSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atomic_station" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaacademy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javaacademy" />
+      <option name="MAIN_CLASS_NAME" value="com.javaacademy.NuclearStationIntegrationTest" />
+      <option name="METHOD_NAME" value="createSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in atomic_station" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atomic_station" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Runner" />
+      <item itemvalue="JUnit.NuclearStationIntegrationTest.contextSuccess" />
+      <item itemvalue="JUnit.NuclearStationIntegrationTest.createSuccess" />
+      <item itemvalue="JUnit.All in atomic_station" />
+      <item itemvalue="JUnit.java in atomic_station" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in atomic_station" />
+        <item itemvalue="JUnit.NuclearStationIntegrationTest.createSuccess" />
+        <item itemvalue="JUnit.NuclearStationIntegrationTest.contextSuccess" />
+        <item itemvalue="JUnit.All in atomic_station" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
@@ -91,16 +173,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/javaacademy/Runner.java</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/javaacademy/Runner.java</url>
+          <line>13</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/atomic_station$All_in_atomic_station.ic" NAME="All in atomic_station Coverage Results" MODIFIED="1731534123105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/atomic_station$java_in_atomic_station.ic" NAME="java in atomic_station Coverage Results" MODIFIED="1731534791603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/atomic_station$Runner.ic" NAME="Runner Coverage Results" MODIFIED="1731227454142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.javaacademy.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/atomic_station$ReactorDepartmentUnitTest.ic" NAME="ReactorDepartmentUnitTest Coverage Results" MODIFIED="1731524431743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.javaacademy.brazil_profile.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/atomic_station$SecurityDepartmentUnitTest.ic" NAME="SecurityDepartmentUnitTest Coverage Results" MODIFIED="1731525619941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.javaacademy.brazil_profile.*</FILTER>
     </SUITE>
   </component>
 </project>

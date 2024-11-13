@@ -1,8 +1,9 @@
-package org.javaacademy.departments;
+package com.javaacademy.departments;
 
+import com.javaacademy.exceptions.NuclearFuelIsEmptyException;
+import com.javaacademy.exceptions.ReactorWorkException;
+import lombok.Getter;
 import lombok.NonNull;
-import org.javaacademy.exceptions.NuclearFuelIsEmptyException;
-import org.javaacademy.exceptions.ReactorWorkException;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
@@ -18,6 +19,7 @@ public class ReactorDepartment {
     private static final int LAUNCH_COUNT_TO_EMPTY_FUEL = 100;
 
     private SecurityDepartment securityDepartment;
+    @Getter
     private boolean isWorking = false;
     private int starterCounter = LAUNCH_COUNTER_INIT_VALUE;
 
