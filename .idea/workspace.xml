@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd6f0c1d-fe59-4a8c-83c2-4598a01f3248" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaacademy/NuclearStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/NuclearStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaacademy/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaacademy/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javaacademy/NuclearStationIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javaacademy/morocco_profile/NuclearStationMoroccoIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +187,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/atomic_station$All_in_atomic_station.ic" NAME="All in atomic_station Coverage Results" MODIFIED="1731534123105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
-    <SUITE FILE_PATH="coverage/atomic_station$java_in_atomic_station.ic" NAME="java in atomic_station Coverage Results" MODIFIED="1731536254599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/atomic_station$java_in_atomic_station.ic" NAME="java in atomic_station Coverage Results" MODIFIED="1731536552477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/atomic_station$Runner.ic" NAME="Runner Coverage Results" MODIFIED="1731227454142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>org.javaacademy.*</FILTER>
     </SUITE>
